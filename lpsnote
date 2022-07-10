@@ -2,3 +2,45 @@ Loops have three basic things
 1. Initialization : i = 0
 2. Comparison : i <= 10
 3. Update : i++ or i-- or ++i or --i
+
+There are 3 types of loops
+1. for
+2. while
+3. do while
+
+Example(s) of for-loop syntax
+	for(i = 0; i <= 10; i++)
+		{
+		(Statement)
+		}
+
+	for(i = 0; i <= 10; i += n)
+		{
+		(Statement)
+		}
+
+	for(i = 0; i <= 10; i = i + n)
+		{
+		(Statement)
+		}
+
+Note:
+1. Code runs for the first value of i, as long as it meets the conditions for comparison. Update happens after the code has run once
+2. Either of your values can be obtained from the user
+3. Scope: In order to use the variable i outside the for-loop, i must be declared outside of the loop, i.e before it starts.
+	e.g:	int i;
+		for(i = 0; i < 10; i++)   OR
+
+		int i = 0;
+		for(; i < 10; i++)
+4. If you try to print the last value stored in i at the end of the loop, it will be "i + 1", so always use "i - 1" to print the last value, where 1 is the incremental value (I THINK).
+5. 
+ 
+Some cool usages
+1. array[i], i.e  char pod[i] from char pod[50]
+
+
+
+Warning
+1. Edge cases: So as not to access a part of memory that you are not granted acesss and cause problems for yourself. It is advicable that you use an a singe character operator, (i.e > not >=)
+
