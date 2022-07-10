@@ -1,0 +1,4 @@
+Loops have three basic things
+1. Initialization : i = 0
+2. Comparison : i <= 10
+3. Update : i++ or i-- or ++i or --i
