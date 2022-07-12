@@ -12,7 +12,7 @@ int main(void)
 	int n = 0;
 	int i;
 	
-	printf("This app checks all print numbers from the number you select till 0\n\n");
+	printf("This app checks all prime numbers from the number you select till 0\n\n");
 	printf("Choose a number to begin: ");
 	scanf("%d", &i);
 	int i2 = i;
